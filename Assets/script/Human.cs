@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Human : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-
+        if(collision.gameObject.name == "QBox1")
+        {
+            SceneManager.LoadScene("Q-Scenes");
+        }
     }
 
     // Start is called before the first frame update
