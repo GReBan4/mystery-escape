@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Human : MonoBehaviour
 {
+    // サウンド設定
+    AudioSource audioSource;
+    public AudioClip doorOpen;
+    public AudioClip doorClosed;
+
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.name == "QBox1")
@@ -16,7 +21,8 @@ public class Human : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // AudioComponent取得
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

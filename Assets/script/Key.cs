@@ -16,6 +16,7 @@ public class Key : MonoBehaviour
         {
             door.GetComponent<door_src>().Open();
             Destroy(this.gameObject,1f) ;
+            // 一回鳴らす
             audioSource.PlayOneShot(get);
         }
     }

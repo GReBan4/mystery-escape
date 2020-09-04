@@ -8240,7 +8240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1274384145}
-  get: {fileID: 0}
+  get: {fileID: 8300000, guid: 958c8f4bec4dbf546ba8fd3f1507bbd0, type: 3}
 --- !u!65 &1700252278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8506,7 +8506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1274384145}
-  get: {fileID: 0}
+  get: {fileID: 8300000, guid: 958c8f4bec4dbf546ba8fd3f1507bbd0, type: 3}
 --- !u!65 &1814115074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9858,7 +9858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1274384145}
-  get: {fileID: 0}
+  get: {fileID: 8300000, guid: 958c8f4bec4dbf546ba8fd3f1507bbd0, type: 3}
 --- !u!65 &2130201106
 BoxCollider:
   m_ObjectHideFlags: 0
